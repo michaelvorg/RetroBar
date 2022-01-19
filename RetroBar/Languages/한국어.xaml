@@ -1,0 +1,71 @@
+
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib">
+
+    <s:String x:Key="retrobar_properties">설정</s:String>
+    <s:String x:Key="taskbar_options">작업 표시줄 옵션</s:String>
+    <s:String x:Key="taskbar_appearance">테마</s:String>
+    <s:String x:Key="notification_area">알림영역</s:String>
+    <s:String x:Key="autostart">로그인시 자동시작</s:String>
+    <s:String x:Key="language_text">언어:</s:String>
+    <s:String x:Key="language_tip">언어를 선택하세요.</s:String>
+    <s:String x:Key="theme_text">테마:</s:String>
+    <s:String x:Key="theme_tip">테마를 선택하세요.</s:String>
+    <s:String x:Key="location_text">위치:</s:String>
+    <s:String x:Key="location_tip">작업 표시줄 표시위치를 선택하세요.</s:String>
+    <x:Array x:Key="location_values" Type="s:String">
+        <s:String>좌측</s:String>
+        <s:String>위측</s:String>
+        <s:String>우측</s:String>
+        <s:String>아래측</s:String>
+    </x:Array>
+    <s:String x:Key="allow_font_smoothing">부드러운 폰트 사용</s:String>
+    <s:String x:Key="collapse_tray_icons">알림영역 합치기</s:String>
+    <s:String x:Key="customize">속성...</s:String>
+    <s:String x:Key="show_clock">시계 보이기</s:String>
+    <s:String x:Key="show_multi_mon">여러 화면에 보이기</s:String>
+    <s:String x:Key="show_quick_launch">빠른실행 보이기</s:String>
+    <s:String x:Key="select_location">폴더 선택...</s:String>
+    <s:String x:Key="quick_launch_folder">빠른실행 - 폴더 선택</s:String>
+    <s:String x:Key="use_software_rendering">소프트웨서 랜더링 사용</s:String>
+    <s:String x:Key="ok_dialog">확인</s:String>
+
+    <s:String x:Key="customize_notifications">알림 속성</s:String>
+    <s:String x:Key="customize_notifications_info">레트로바는 활성화된 알림은 보여주고, 비활성화된 알림은 숨깁니다. 직접 이 설정에서 보여줌 여부를 설정할 수 있습니다.</s:String>
+    <s:String x:Key="customize_notifications_instruction">항목을 선택하고, 보여줌 여부를 선택하세요:</s:String>
+    <s:String x:Key="hide_when_inactive">비활성화시 숨기기</s:String>
+    <s:String x:Key="always_show">이름</s:String>
+    <s:String x:Key="behavior_heading">속성</s:String>
+
+    <s:String x:Key="start_text">시작</s:String>
+    <s:String x:Key="start_text_xp">시작</s:String>
+    <s:String x:Key="start_button_tip_98">여기를 눌러 시작하세요.</s:String>
+    <s:String x:Key="start_button_tip">여기를 눌러 시작하세요</s:String>
+    <s:String x:Key="start_button_tip_vista">시작</s:String>
+
+    <s:String x:Key="retrobar_title">RetroBar Taskbar</s:String>
+    <s:String x:Key="toolbars">툴바</s:String>
+    <s:String x:Key="quick_launch">빠른 실행</s:String>
+    <s:String x:Key="new_toolbar">새 툴바...</s:String>
+    <s:String x:Key="show_taskman_2k">작업 관리자...</s:String>
+    <s:String x:Key="show_taskman">작업 관리자</s:String>
+    <s:String x:Key="tray_properties">설정</s:String>
+    <s:String x:Key="update_available">업데이트 가능...</s:String>
+    <s:String x:Key="exit_retrobar">나가기</s:String>
+    <s:String x:Key="customize_notifications_menu">알림 속성...</s:String>
+
+    <s:String x:Key="restore">복구</s:String>
+    <s:String x:Key="move">위치</s:String>
+    <s:String x:Key="size">크기</s:String>
+    <s:String x:Key="minimize">최소화</s:String>
+    <s:String x:Key="maximize">최대화</s:String>
+    <s:String x:Key="close">닫기</s:String>
+
+    <s:String x:Key="show_hidden">숨겨진 항목 표시</s:String>
+    <s:String x:Key="hide">숨기기</s:String>
+
+    <s:String x:Key="set_time">날짜 또는 시간 설정</s:String>
+
+    <s:String x:Key="open_folder">&amp;폴더 열기</s:String>
+</ResourceDictionary>
